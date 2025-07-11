@@ -1,0 +1,13 @@
+{
+  "name": "order-bdd",
+  "version": "1.0.0",
+  "main": "src/OrderService.js",
+  "scripts": {
+    "test": "jest",
+    "bdd": "cucumber-js features/order.feature"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.2.0",
+    "jest": "^29.0.0"
+  }
+}
